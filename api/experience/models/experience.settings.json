@@ -17,14 +17,17 @@
       "type": "string",
       "required": true
     },
-    "date": {
-      "type": "string",
-      "required": true
-    },
     "desc": {
       "type": "component",
       "repeatable": true,
       "component": "description.job-description"
+    },
+    "startDate": {
+      "type": "date",
+      "required": true
+    },
+    "endDate": {
+      "type": "date"
     }
   }
 }
